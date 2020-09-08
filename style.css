@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('assets/Lobster-Regular.ttf') format('truetype');
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+  
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.viewport-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewport-header h1 {
+    background:  rgba(255,255,255,0.6);
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+.viewport-header h1 img {
+    height: 250px;
+}
